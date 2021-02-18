@@ -1,0 +1,320 @@
+{
+  "author": "",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "NewExtension",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "eventsFunctions": [
+    {
+      "description": "This function is used to save the state of the game in order to let the player use the \"load\" button.",
+      "fullName": "Save_Current_Game",
+      "functionType": "Action",
+      "name": "Save",
+      "sentence": "save_game",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save/character\"",
+                "\"character_state_pv\"",
+                "principal_character.Variable(life_point)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save/character\"",
+                "\"character_state_x\"",
+                "principal_character.X()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save/character\"",
+                "\"character_state_y\"",
+                "principal_character.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"save/character\"",
+                "\"character_state_score\"",
+                "START_SCENE.Variable(Score)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "Load the variables of the game",
+      "fullName": "Load_Game",
+      "functionType": "Action",
+      "name": "Load",
+      "sentence": "load_game",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "\"character\"",
+          "longDescription": "",
+          "name": "character",
+          "optional": false,
+          "supplementaryInformation": "PlatformBehavior::PlatformerObjectBehavior",
+          "type": "behavior"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "",
+      "fullName": "",
+      "name": "CheckpointBehavior",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "description": "The checkpoint saves the current game",
+          "fullName": "Save the game",
+          "functionType": "Action",
+          "name": "save",
+          "sentence": "save: _THIS_,_CHAR_,_CHECK_,_SAVE_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "char",
+                    "check",
+                    "10",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "save",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "save",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_score\"",
+                        "START_SCENE.Variable(Score)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_y\"",
+                        "principal_character.Y()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_pv\"",
+                        "principal_character.Variable(life_point)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_x\"",
+                        "principal_character.X()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "NewExtension::CheckpointBehavior",
+              "type": "behavior"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "\"principal_character\"",
+              "longDescription": "",
+              "name": "char",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "\"checkpoint\"",
+              "longDescription": "",
+              "name": "check",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "\"save_button\"",
+              "longDescription": "",
+              "name": "save",
+              "optional": false,
+              "supplementaryInformation": "TextObject::Text",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": []
+    },
+    {
+      "description": "",
+      "fullName": "",
+      "name": "MyBehavior",
+      "objectType": "",
+      "eventsFunctions": [],
+      "propertyDescriptors": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "author": "",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "NewExtension2",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "",
+      "fullName": "",
+      "name": "MyBehavior",
+      "objectType": "",
+      "eventsFunctions": [],
+      "propertyDescriptors": []
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "folderProject": false,
+    "folderProject": true,
     "orientation": "default",
     "packageName": "com.example.gamename",
     "projectUuid": "6311b78a-6c80-46ff-afc0-3611431a6c47",
@@ -660,6 +660,213 @@
         "metadata": "",
         "name": "audio\\character_audio\\hit_high_life.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/save_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\save_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/save_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\save_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/telechargement.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\telechargement.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\82.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/117.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\117.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/88.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\88.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/89.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\89.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\90.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\91.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\92.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\93.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/94.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\94.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/95.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\95.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_88.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_88.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_89.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_89.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_90.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_91.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_92.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_93.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_94.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_94.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_95.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_95.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1167,7 +1374,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"New scene\"",
+                    "\"START_SCENE\"",
                     "no"
                   ],
                   "subInstructions": []
@@ -1600,8 +1807,8 @@
     {
       "b": 77,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "START_95SCENE",
+      "name": "START_SCENE",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -1621,7 +1828,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.472
+        "zoomFactor": 0.592
       },
       "objectsGroups": [],
       "variables": [
@@ -2088,13 +2295,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 85,
           "layer": "",
           "locked": false,
           "name": "principal_character",
           "persistentUuid": "fdd7aa71-47bf-4c1b-ae0f-489db1895fe4",
-          "width": 0,
+          "width": 55,
           "x": 342,
           "y": 246,
           "zOrder": 1,
@@ -2596,6 +2803,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 42,
+          "layer": "",
+          "locked": false,
+          "name": "save_button",
+          "persistentUuid": "0912e39f-2c4a-4b53-8a22-503da1022951",
+          "width": 58,
+          "x": -143,
+          "y": 118,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2645,7 +2868,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_stand.png",
+                      "image": "sprites\\character_sprites\\82.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2674,7 +2897,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_jump.png",
+                      "image": "sprites\\character_sprites\\117.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2699,11 +2922,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.05,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_walk03.png",
+                      "image": "sprites\\character_sprites\\walking_anim_87.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2720,7 +2943,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_walk04.png",
+                      "image": "sprites\\character_sprites\\walking_anim_88.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2737,7 +2960,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_walk05.png",
+                      "image": "sprites\\character_sprites\\walking_anim_89.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2754,7 +2977,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_walk06.png",
+                      "image": "sprites\\character_sprites\\walking_anim_90.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2771,7 +2994,75 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\character_sprites\\p1_walk07.png",
+                      "image": "sprites\\character_sprites\\walking_anim_91.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\character_sprites\\walking_anim_92.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\character_sprites\\walking_anim_93.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\character_sprites\\walking_anim_94.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\character_sprites\\walking_anim_95.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3123,7 +3414,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "CheckpointBehavior",
+              "type": "NewExtension::CheckpointBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -3164,6 +3460,74 @@
           "variables": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "name": "save_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\save_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\save_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4420,6 +4784,214 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "principal_character",
+                "checkpoint",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "save_button",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "save_button",
+                    "principal_character",
+                    "10",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "save_button",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_y\"",
+                        "principal_character.Y()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_pv\"",
+                        "principal_character.Variable(life_point)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_score\"",
+                        "START_SCENE.Variable(Score)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"save/character\"",
+                        "\"character_state_x\"",
+                        "principal_character.X()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "save_button",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "save_button",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "principal_character",
+                "checkpoint",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "save_button"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -4459,6 +5031,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "CheckpointBehavior",
+          "type": "NewExtension::CheckpointBehavior"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -4483,8 +5059,313 @@
       "shortDescription": "",
       "version": "",
       "tags": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": []
+      "eventsFunctions": [
+        {
+          "description": "This function is used to save the state of the game in order to let the player use the \"load\" button.",
+          "fullName": "Save_Current_Game",
+          "functionType": "Action",
+          "name": "Save",
+          "sentence": "save_game",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"save/character\"",
+                    "\"character_state_pv\"",
+                    "principal_character.Variable(life_point)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"save/character\"",
+                    "\"character_state_x\"",
+                    "principal_character.X()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"save/character\"",
+                    "\"character_state_y\"",
+                    "principal_character.Y()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"save/character\"",
+                    "\"character_state_score\"",
+                    "START_SCENE.Variable(Score)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Load the variables of the game",
+          "fullName": "Load_Game",
+          "functionType": "Action",
+          "name": "Load",
+          "sentence": "load_game",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "\"character\"",
+              "longDescription": "",
+              "name": "character",
+              "optional": false,
+              "supplementaryInformation": "PlatformBehavior::PlatformerObjectBehavior",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "",
+          "fullName": "",
+          "name": "CheckpointBehavior",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "The checkpoint saves the current game",
+              "fullName": "Save the game",
+              "functionType": "Action",
+              "name": "save",
+              "sentence": "save: _THIS_,_CHAR_,_CHECK_,_SAVE_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "char",
+                        "check",
+                        "10",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "save",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "save",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisBouton"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"save/character\"",
+                            "\"character_state_score\"",
+                            "START_SCENE.Variable(Score)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"save/character\"",
+                            "\"character_state_y\"",
+                            "principal_character.Y()"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"save/character\"",
+                            "\"character_state_pv\"",
+                            "principal_character.Variable(life_point)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"save/character\"",
+                            "\"character_state_x\"",
+                            "principal_character.X()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "NewExtension::CheckpointBehavior",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "\"principal_character\"",
+                  "longDescription": "",
+                  "name": "char",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "\"checkpoint\"",
+                  "longDescription": "",
+                  "name": "check",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "\"save_button\"",
+                  "longDescription": "",
+                  "name": "save",
+                  "optional": false,
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": []
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "name": "MyBehavior",
+          "objectType": "",
+          "eventsFunctions": [],
+          "propertyDescriptors": []
+        }
+      ]
     },
     {
       "author": "",
