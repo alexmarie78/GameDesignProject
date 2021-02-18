@@ -13,7 +13,7 @@
     "packageName": "com.example.gamename",
     "projectUuid": "6311b78a-6c80-46ff-afc0-3611431a6c47",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Blinded Memories",
@@ -325,6 +325,341 @@
         "name": "screeen_temp.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "01 Blinded Memories.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "01 Blinded Memories.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PC Computer - Brain Exercise with Dr Kawashima - Memorized Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PC Computer - Brain Exercise with Dr Kawashima - Memorized Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "newgame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "newgame1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "newgame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "newgame2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "load1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "load1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "load2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "load2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "settings1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "settings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Mystical Snow.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Mystical Snow.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "fonts/Alphakind.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\Alphakind.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/screeen_temp.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\screeen_temp.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/load1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\load1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/newgame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\newgame1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/newgame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\newgame2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/load2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\load2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/settings1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\settings1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/settings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\settings2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "audio/menu_audio/01 Blinded Memories.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\menu_audio\\01 Blinded Memories.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_stand.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_jump.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/grass/grassHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\grass\\grassHalfMid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/bridge_logs/bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\bridge_logs\\bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/bush/bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\bush\\bush.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/cloud/cloud2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\cloud\\cloud2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/coin/coinGold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\coin\\coinGold.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/slimeWalk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\slimeWalk1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/slimeWalk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\slimeWalk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/arrows/Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\arrows\\Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/arrows/Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\arrows\\Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/campfire/campfire3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\campfire\\campfire3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "audio/objects_audio/coin/coin_pickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\objects_audio\\coin\\coin_pickup.wav",
+        "userAdded": true
+      },
+      {
+        "file": "audio/monsters_audio/slime_audio/dying_slime.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\monsters_audio\\slime_audio\\dying_slime.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "audio/character_audio/hit_low_life.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\character_audio\\hit_low_life.wav",
+        "userAdded": true
+      },
+      {
+        "file": "audio/character_audio/hit_high_life.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\character_audio\\hit_high_life.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -357,23 +692,87 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.208
+        "zoomFactor": 0.332
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 1080,
           "layer": "",
           "locked": false,
           "name": "background_image",
           "persistentUuid": "61585d26-d21f-4e19-bae1-2c67012585ae",
-          "width": 0,
+          "width": 1920,
           "x": 0,
           "y": 0,
-          "zOrder": 2,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "new_game_button",
+          "persistentUuid": "05abe2e6-43ab-4e66-8079-0d035e7666f9",
+          "width": 0,
+          "x": 784,
+          "y": 340,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "load_game_button",
+          "persistentUuid": "e2e8696d-e547-4d74-b12d-064cc265a0d4",
+          "width": 0,
+          "x": 784,
+          "y": 540,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "settings_button",
+          "persistentUuid": "aa7e21df-17f7-46b2-8a7b-1ef5912b0b95",
+          "width": 0,
+          "x": 784,
+          "y": 740,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "game_title",
+          "persistentUuid": "6564ffb4-b185-468c-9756-4b03e05dd272",
+          "width": 0,
+          "x": 640,
+          "y": 140,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -398,7 +797,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "screeen_temp.jpg",
+                      "image": "sprites\\menu_sprites\\screeen_temp.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -418,9 +817,610 @@
               ]
             }
           ]
+        },
+        {
+          "name": "new_game_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\newgame1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\newgame2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "load_game_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\load1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\load2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "settings_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\settings1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\menu_sprites\\settings2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "game_title",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Blinded Memories",
+          "font": "fonts\\Alphakind.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 180,
+            "g": 180,
+            "r": 219
+          }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetWindowSize"
+              },
+              "parameters": [
+                "",
+                "ScreenWidth()",
+                "ScreenHeight()",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "ScreenWidth()*ScreenHeight()",
+                "0",
+                "0",
+                "ScreenWidth()",
+                "ScreenHeight()",
+                "",
+                "\"\"",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio\\menu_audio\\01 Blinded Memories.mp3",
+                "yes",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "new_game_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "new_game_button",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"New scene\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "new_game_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "new_game_button",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "load_game_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "load_game_button",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Load scene\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "load_game_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "load_game_button",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "settings_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "settings_button",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Settings scene\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "settings_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "settings_button",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 36,
@@ -1645,7 +2645,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_stand.png",
+                      "image": "sprites\\character_sprites\\p1_stand.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1674,7 +2674,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_jump.png",
+                      "image": "sprites\\character_sprites\\p1_jump.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1703,7 +2703,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_walk03.png",
+                      "image": "sprites\\character_sprites\\p1_walk03.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1720,7 +2720,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_walk04.png",
+                      "image": "sprites\\character_sprites\\p1_walk04.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1737,7 +2737,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_walk05.png",
+                      "image": "sprites\\character_sprites\\p1_walk05.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1754,7 +2754,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_walk06.png",
+                      "image": "sprites\\character_sprites\\p1_walk06.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1771,7 +2771,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "p1_walk07.png",
+                      "image": "sprites\\character_sprites\\p1_walk07.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1796,7 +2796,7 @@
           "height": 32,
           "name": "herb_plat1",
           "tags": "",
-          "texture": "grassHalfMid.png",
+          "texture": "sprites\\objects_sprites\\grass\\grassHalfMid.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -1814,7 +2814,7 @@
           "height": 32,
           "name": "logs_through",
           "tags": "",
-          "texture": "bridgeLogs.png",
+          "texture": "sprites\\objects_sprites\\bridge_logs\\bridgeLogs.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -1846,7 +2846,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "bush.png",
+                      "image": "sprites\\objects_sprites\\bush\\bush.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1885,7 +2885,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "cloud2.png",
+                      "image": "sprites\\objects_sprites\\cloud\\cloud2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1924,7 +2924,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "coinGold.png",
+                      "image": "sprites\\objects_sprites\\coin\\coinGold.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1982,7 +2982,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "slimeWalk1.png",
+                      "image": "sprites\\monsters_sprites\\slime\\slimeWalk1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1999,7 +2999,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "slimeWalk2.png",
+                      "image": "sprites\\monsters_sprites\\slime\\slimeWalk2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2038,7 +3038,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Right.png",
+                      "image": "sprites\\objects_sprites\\arrows\\Right.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2077,7 +3077,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Left.png",
+                      "image": "sprites\\objects_sprites\\arrows\\Left.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2135,7 +3135,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "campfire3.png",
+                      "image": "sprites\\objects_sprites\\campfire\\campfire3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2197,7 +3197,72 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "right_arrow",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -2240,7 +3305,72 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "right_arrow",
+                    "Right"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -2540,7 +3670,7 @@
                   },
                   "parameters": [
                     "",
-                    "coin.wav",
+                    "audio\\objects_audio\\coin\\coin_pickup.wav",
                     "",
                     "25",
                     ""
@@ -2799,7 +3929,7 @@
                   },
                   "parameters": [
                     "",
-                    "dying_slime.ogg",
+                    "audio\\monsters_audio\\slime_audio\\dying_slime.ogg",
                     "",
                     "100",
                     ""
@@ -2929,7 +4059,7 @@
                       },
                       "parameters": [
                         "",
-                        "SebOoooh2.wav",
+                        "audio\\character_audio\\hit_low_life.wav",
                         "",
                         "50",
                         "1"
@@ -2966,7 +4096,7 @@
                       },
                       "parameters": [
                         "",
-                        "SebOoooh1.wav",
+                        "audio\\character_audio\\hit_high_life.wav",
                         "",
                         "50",
                         "1"
@@ -3340,7 +4470,47 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "NewExtension",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "tags": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": []
+    },
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "NewExtension2",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "tags": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "",
+          "fullName": "",
+          "name": "MyBehavior",
+          "objectType": "",
+          "eventsFunctions": [],
+          "propertyDescriptors": []
+        }
+      ]
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
