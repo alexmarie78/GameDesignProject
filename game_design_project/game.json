@@ -867,13 +867,27 @@
         "name": "sprites\\character_sprites\\walking_anim_95.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/scene_background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\scene_background.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "loaded",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.592
+    "zoomFactor": 0.568
   },
   "objectsGroups": [],
   "variables": [
@@ -31,12 +31,21 @@
       "value": "0"
     },
     {
-      "name": "checkpoint_x",
-      "value": "0"
-    },
-    {
-      "name": "checkpoint_y",
-      "value": "0"
+      "name": "principal_character_checkpoint",
+      "children": [
+        {
+          "name": "hit_points",
+          "value": ""
+        },
+        {
+          "name": "x_position",
+          "value": ""
+        },
+        {
+          "name": "y_position",
+          "value": ""
+        }
+      ]
     }
   ],
   "instances": [
@@ -496,8 +505,8 @@
       "name": "principal_character",
       "persistentUuid": "fdd7aa71-47bf-4c1b-ae0f-489db1895fe4",
       "width": 55,
-      "x": 342,
-      "y": 246,
+      "x": 313,
+      "y": 306,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -853,8 +862,8 @@
       "name": "life_layer",
       "persistentUuid": "00f3ff44-1cf2-4f1c-9925-0d3671af098b",
       "width": 0,
-      "x": 602,
-      "y": 15,
+      "x": 11,
+      "y": 69,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -1013,6 +1022,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200000,
+      "layer": "",
+      "locked": false,
+      "name": "dark_forest_background",
+      "persistentUuid": "e35735e5-73f8-401e-8688-319df258f10b",
+      "width": 20000,
+      "x": -1307,
+      "y": -2041,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1029,6 +1054,14 @@
         {
           "name": "got_hit",
           "value": "\"false\""
+        },
+        {
+          "name": "x_position",
+          "value": ""
+        },
+        {
+          "name": "y_position",
+          "value": ""
         }
       ],
       "behaviors": [
@@ -1722,9 +1755,171 @@
           ]
         }
       ]
+    },
+    {
+      "name": "scene_background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\scene_background.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 64,
+      "name": "dark_forest_background",
+      "tags": "",
+      "texture": "sprites\\scene_background.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "behaviors": []
     }
   ],
   "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "loaded",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"save/character\"",
+            "\"character_state_y\"",
+            "principal_character.Y()",
+            "principal_character_checkpoint.y_position"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"save/character\"",
+            "\"character_state_pv\"",
+            "principal_character.Variable(life_point)",
+            "principal_character.hit_points"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"save/character\"",
+            "\"character_state_score\"",
+            "START_SCENE.Variable(Score)",
+            "Score"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"save/character\"",
+            "\"character_state_x\"",
+            "principal_character.X()",
+            "principal_character.x_position"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "principal_character",
+            "=",
+            "Variable(principal_character.x_position)",
+            "=",
+            "Variable(principal_character.y_position)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "principal_character",
+            "life_point",
+            "=",
+            "Variable(principal_character.hit_points)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "loaded",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
     {
       "disabled": false,
       "folded": false,
@@ -3071,18 +3266,6 @@
                   },
                   "parameters": [
                     "\"save/character\"",
-                    "\"character_state_y\"",
-                    "principal_character.Y()"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"save/character\"",
                     "\"character_state_pv\"",
                     "principal_character.Variable(life_point)"
                   ],
@@ -3095,8 +3278,8 @@
                   },
                   "parameters": [
                     "\"save/character\"",
-                    "\"character_state_score\"",
-                    "START_SCENE.Variable(Score)"
+                    "\"character_state_x\"",
+                    "principal_character.X()"
                   ],
                   "subInstructions": []
                 },
@@ -3107,8 +3290,20 @@
                   },
                   "parameters": [
                     "\"save/character\"",
-                    "\"character_state_x\"",
-                    "principal_character.X()"
+                    "\"character_state_y\"",
+                    "principal_character.Y()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"save/character\"",
+                    "\"character_state_score\"",
+                    "Variable(Score)"
                   ],
                   "subInstructions": []
                 }
