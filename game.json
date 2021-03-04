@@ -1,0 +1,1103 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "projectUuid": "6311b78a-6c80-46ff-afc0-3611431a6c47",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Blinded Memories",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 60,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "p1_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_stand.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalfMid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_jump.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "p1_walk07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "p1_walk07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coinGold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coinGold.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coin.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeWalk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeWalk1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeWalk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeWalk2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "campfire.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "campfire.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "campifre2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "campifre2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "campfire3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "campfire3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "MinecraftSeb.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "MinecraftSeb.wav",
+        "userAdded": true
+      },
+      {
+        "file": "SebOoooh2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SebOoooh2.wav",
+        "userAdded": true
+      },
+      {
+        "file": "SebOoooh1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SebOoooh1.wav",
+        "userAdded": true
+      },
+      {
+        "file": "slime.wav.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "slime.wav.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "jump.wav.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jump.wav.wav",
+        "userAdded": true
+      },
+      {
+        "file": "dying_slime.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dying_slime.ogg",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "screeen_temp.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "screeen_temp.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "01 Blinded Memories.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "01 Blinded Memories.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PC Computer - Brain Exercise with Dr Kawashima - Memorized Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PC Computer - Brain Exercise with Dr Kawashima - Memorized Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "newgame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "newgame1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "newgame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "newgame2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "load1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "load1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "load2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "load2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "settings1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "settings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "settings2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Mystical Snow.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Mystical Snow.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "fonts/Alphakind.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts\\Alphakind.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/screeen_temp.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\screeen_temp.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/load1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\load1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/newgame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\newgame1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/newgame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\newgame2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/load2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\load2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/settings1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\settings1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/settings2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\settings2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "audio/menu_audio/01 Blinded Memories.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\menu_audio\\01 Blinded Memories.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_stand.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_jump.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/p1_walk07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\p1_walk07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/grass/grassHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\grass\\grassHalfMid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/bridge_logs/bridgeLogs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\bridge_logs\\bridgeLogs.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/bush/bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\bush\\bush.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/cloud/cloud2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\cloud\\cloud2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/coin/coinGold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\coin\\coinGold.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/arrows/Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\arrows\\Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/arrows/Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\arrows\\Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/campfire/campfire3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\campfire\\campfire3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "audio/objects_audio/coin/coin_pickup.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\objects_audio\\coin\\coin_pickup.wav",
+        "userAdded": true
+      },
+      {
+        "file": "audio/monsters_audio/slime_audio/dying_slime.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\monsters_audio\\slime_audio\\dying_slime.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "audio/character_audio/hit_low_life.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\character_audio\\hit_low_life.wav",
+        "userAdded": true
+      },
+      {
+        "file": "audio/character_audio/hit_high_life.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio\\character_audio\\hit_high_life.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/save_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\save_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/save_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\save_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/telechargement.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\telechargement.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\82.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/117.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\117.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/88.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\88.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/89.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\89.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\90.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\91.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\92.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\93.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/94.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\94.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/95.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\95.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/scene_background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\scene_background.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/WALKING_ANIM-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\WALKING_ANIM-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_88.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_88.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_89.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_89.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_90.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_91.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_91.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_92.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_93.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_94.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_94.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/walking_anim_95.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\walking_anim_95.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/slimeWalk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\slimeWalk1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/slimeWalk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\slimeWalk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/sprite_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\sprite_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/sprite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\sprite_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/menu_sprites/save_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\menu_sprites\\save_1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "loaded",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start_scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/newextension"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/newextension2"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
