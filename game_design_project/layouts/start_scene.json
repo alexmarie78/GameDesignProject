@@ -22,7 +22,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.568
+    "zoomFactor": 0.76
   },
   "objectsGroups": [],
   "variables": [
@@ -331,7 +331,7 @@
       "persistentUuid": "d2c54a15-4129-460d-a60e-ea849876e661",
       "width": 0,
       "x": 1768,
-      "y": -333,
+      "y": -332,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -384,7 +384,7 @@
       "persistentUuid": "fd6a00a1-0c0e-4d79-a316-c6f6029432e5",
       "width": 0,
       "x": 1143,
-      "y": -606,
+      "y": -598,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -453,7 +453,7 @@
       "persistentUuid": "8750b31c-fd90-4f0f-aee9-1a79366e8b83",
       "width": 0,
       "x": 1156,
-      "y": -217,
+      "y": -211,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -505,7 +505,7 @@
       "name": "principal_character",
       "persistentUuid": "fdd7aa71-47bf-4c1b-ae0f-489db1895fe4",
       "width": 55,
-      "x": 313,
+      "x": 314,
       "y": 306,
       "zOrder": 1,
       "numberProperties": [],
@@ -810,7 +810,7 @@
       "persistentUuid": "cb9964fd-3f7e-443a-9c3a-9d3546956c9b",
       "width": 0,
       "x": 1120,
-      "y": 252,
+      "y": 254,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -895,7 +895,7 @@
       "persistentUuid": "d6a5e249-7681-4d03-a458-13aa5ccdb2ee",
       "width": 0,
       "x": 495,
-      "y": -21,
+      "y": -13,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -963,8 +963,8 @@
       "name": "slime",
       "persistentUuid": "d5b11abe-6977-47fd-934e-90a41fe7d9b5",
       "width": 0,
-      "x": 508,
-      "y": 368,
+      "x": 504,
+      "y": 374,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -1032,8 +1032,72 @@
       "name": "dark_forest_background",
       "persistentUuid": "e35735e5-73f8-401e-8688-319df258f10b",
       "width": 20000,
-      "x": -1307,
-      "y": -2041,
+      "x": -2149,
+      "y": -1237,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200000,
+      "layer": "",
+      "locked": false,
+      "name": "dark_forest_background",
+      "persistentUuid": "bdff4f0f-4952-4016-9196-64d08c25699b",
+      "width": 20000,
+      "x": -1556,
+      "y": -1503,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200000,
+      "layer": "",
+      "locked": false,
+      "name": "dark_forest_background",
+      "persistentUuid": "67731eff-a547-4249-b7cc-b3c446ea5e73",
+      "width": 20000,
+      "x": -2048,
+      "y": -1298,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200000,
+      "layer": "",
+      "locked": false,
+      "name": "dark_forest_background",
+      "persistentUuid": "489633aa-906c-4449-ae34-37a4eecd2637",
+      "width": 20000,
+      "x": -2149,
+      "y": -1237,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200000,
+      "layer": "",
+      "locked": false,
+      "name": "dark_forest_background",
+      "persistentUuid": "4fd6b5c2-5d61-40da-a7b3-d39c3715e7c6",
+      "width": 20000,
+      "x": -2149,
+      "y": -1237,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1062,6 +1126,10 @@
         {
           "name": "y_position",
           "value": ""
+        },
+        {
+          "name": "hits",
+          "value": "0"
         }
       ],
       "behaviors": [
@@ -1095,7 +1163,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\82.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1153,7 +1221,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_87.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1170,7 +1238,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_88.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1187,7 +1255,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_89.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1204,7 +1272,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_90.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1221,7 +1289,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_91.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1238,7 +1306,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_92.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1255,7 +1323,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_93.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1272,7 +1340,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_94.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1289,7 +1357,327 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\character_sprites\\walking_anim_95.png",
+                  "image": "sprites\\character_sprites\\Layer 1_sprite_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATTACK_ANIM_1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\116.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATTACK_ANIM_2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATTACK_ANIM_3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\52.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\53.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\54.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\55.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\56.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\57.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DEATH_ANIM",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\173.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\174.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\175.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\176.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\character_sprites\\177.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1500,7 +1888,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\monsters_sprites\\slime\\slimeWalk1.png",
+                  "image": "sprites\\monsters_sprites\\slime\\WALKING_ANIM-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1517,7 +1905,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\monsters_sprites\\slime\\slimeWalk2.png",
+                  "image": "sprites\\monsters_sprites\\slime\\WALKING_ANIM-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1810,6 +2198,21 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Loading part",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1923,6 +2326,21 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Jumping part",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2016,6 +2434,21 @@
           "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Falling part",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -2128,6 +2561,21 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Animation of the character when she touches the ground",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2197,7 +2645,181 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Attack and Combos",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "principal_character"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "hits",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "principal_character",
+                        "hits",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "principal_character",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "principal_character",
+                        "hits",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "principal_character",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "principal_character",
+                        "hits",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "principal_character",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
         },
         {
           "disabled": false,
@@ -2293,10 +2915,59 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Ledge grabbing part",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -2344,6 +3015,21 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Camera Part",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -2363,6 +3049,21 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Collectible part",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -2455,6 +3156,21 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Monsters",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -2623,6 +3339,21 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Collisions",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -2976,6 +3707,18 @@
             "20"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "principal_character",
+            "=",
+            "6"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -2997,6 +3740,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
+          ],
+          "subInstructions": []
+        },
         {
           "type": {
             "inverted": false,
@@ -3376,6 +4131,97 @@
           },
           "parameters": [
             "save_button"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AnimationEnded"
+          },
+          "parameters": [
+            "principal_character"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "principal_character",
+            "hits",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlatformBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "principal_character",
+            "PlatformerObject",
+            "=",
+            "70"
           ],
           "subInstructions": []
         }

@@ -876,6 +876,258 @@
         "name": "sprites\\scene_background.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/Layer 1_sprite_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\Layer 1_sprite_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/WALKING_ANIM-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\WALKING_ANIM-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/monsters_sprites/slime/WALKING_ANIM-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\monsters_sprites\\slime\\WALKING_ANIM-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\104.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/116.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\116.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\54.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\55.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\56.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\57.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/173.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\173.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/174.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\174.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/175.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\175.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/176.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\176.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/character_sprites/177.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\character_sprites\\177.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
