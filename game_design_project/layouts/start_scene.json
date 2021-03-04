@@ -2581,39 +2581,18 @@
         {
           "type": {
             "inverted": false,
-            "value": "PlatformBehavior::IsOnFloor"
+            "value": "VarObjet"
           },
           "parameters": [
             "principal_character",
-            "PlatformerObject"
+            "hits",
+            "=",
+            "0"
           ],
           "subInstructions": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "PauseTimer"
-          },
-          "parameters": [
-            "",
-            "\"falling_timer\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"falling_timer\""
-          ],
-          "subInstructions": []
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "disabled": false,
@@ -2622,8 +2601,8 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsMoving"
+                "inverted": false,
+                "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
                 "principal_character",
@@ -2636,11 +2615,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SetAnimationName"
+                "value": "PauseTimer"
               },
               "parameters": [
-                "principal_character",
-                "\"IDLE_POSE\""
+                "",
+                "\"falling_timer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"falling_timer\""
               ],
               "subInstructions": []
             }
@@ -2649,17 +2639,34 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Attack and Combos",
-              "comment2": ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "principal_character",
+                    "\"IDLE_POSE\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
@@ -2669,30 +2676,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "",
-                    "x"
+                    "principal_character",
+                    "PlatformerObject"
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
-                  },
-                  "parameters": [
-                    "principal_character"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -2700,13 +2689,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarObjet"
+                    "value": "SetAnimationName"
                   },
                   "parameters": [
                     "principal_character",
-                    "hits",
-                    "+",
-                    "1"
+                    "\"WALKING_ANIM\""
                   ],
                   "subInstructions": []
                 }
@@ -2720,13 +2707,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarObjet"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
                         "principal_character",
-                        "hits",
-                        "=",
-                        "1"
+                        "Left"
                       ],
                       "subInstructions": []
                     }
@@ -2735,12 +2720,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ChangeAnimation"
+                        "value": "FlipX"
                       },
                       "parameters": [
                         "principal_character",
-                        "=",
-                        "3"
+                        "yes"
                       ],
                       "subInstructions": []
                     }
@@ -2755,13 +2739,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "VarObjet"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "principal_character",
-                        "hits",
-                        "=",
-                        "2"
+                        "right_arrow",
+                        "Right"
                       ],
                       "subInstructions": []
                     }
@@ -2770,47 +2752,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ChangeAnimation"
+                        "value": "FlipX"
                       },
                       "parameters": [
                         "principal_character",
-                        "=",
-                        "4"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "principal_character",
-                        "hits",
-                        "=",
-                        "3"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "principal_character",
-                        "=",
-                        "5"
+                        "no"
                       ],
                       "subInstructions": []
                     }
@@ -2820,7 +2766,123 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Attack and Combos",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "x"
+          ],
+          "subInstructions": []
         },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "principal_character",
+            "hits",
+            "+",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlatformBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "principal_character",
+            "PlatformerObject",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
         {
           "disabled": false,
           "folded": false,
@@ -2829,11 +2891,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlatformBehavior::IsMoving"
+                "value": "VarObjet"
               },
               "parameters": [
                 "principal_character",
-                "PlatformerObject"
+                "hits",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -2846,113 +2910,188 @@
               },
               "parameters": [
                 "principal_character",
-                "\"WALKING_ANIM\""
+                "ATTACK_ANIM_1"
               ],
               "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "principal_character",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "principal_character",
+                "hits",
+                "=",
+                "2"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "principal_character",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "right_arrow",
-                    "Right"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "principal_character",
-                    "no"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "x"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "principal_character",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "principal_character",
+                "ATTACK_ANIM_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "principal_character",
+                "hits",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "principal_character",
+                "ATTACK_ANIM_3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Attack Finished",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "principal_character",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AnimationEnded"
+          },
+          "parameters": [
+            "principal_character"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "principal_character",
+            "hits",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlatformBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "principal_character",
+            "PlatformerObject",
+            "=",
+            "200"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
     },
     {
       "disabled": false,
@@ -4131,97 +4270,6 @@
           },
           "parameters": [
             "save_button"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Animation"
-              },
-              "parameters": [
-                "principal_character",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Animation"
-              },
-              "parameters": [
-                "principal_character",
-                "=",
-                "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Animation"
-              },
-              "parameters": [
-                "principal_character",
-                "=",
-                "5"
-              ],
-              "subInstructions": []
-            }
-          ]
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AnimationEnded"
-          },
-          "parameters": [
-            "principal_character"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarObjet"
-          },
-          "parameters": [
-            "principal_character",
-            "hits",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PlatformBehavior::MaxSpeed"
-          },
-          "parameters": [
-            "principal_character",
-            "PlatformerObject",
-            "=",
-            "70"
           ],
           "subInstructions": []
         }
