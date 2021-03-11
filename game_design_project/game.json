@@ -1128,6 +1128,69 @@
         "name": "sprites\\character_sprites\\177.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/grass/grassHalfMid-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\grass\\grassHalfMid-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/scene_background-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\scene_background-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/tree/tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\tree\\tree.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/house/house.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\house\\house.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/grass/grass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\grass\\grass1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/house/house-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\house\\house-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/objects_sprites/grass/grass1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\objects_sprites\\grass\\grass1-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
